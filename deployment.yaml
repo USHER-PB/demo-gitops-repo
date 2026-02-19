@@ -17,7 +17,7 @@ spec:
       containers:
         - name: demo-app
           # The CI pipeline in the App repo will update this tag automatically
-          image: ghcr.io/usher-pb/demo-app-repo:latest
+          image: ghcr.io/usher-pb/demo-app-repo:sha-2475d4f
           imagePullPolicy: Always
           ports:
             - containerPort: 5000
